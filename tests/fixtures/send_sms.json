@@ -1,0 +1,12 @@
+{
+    "status": "success",
+    "message": "Your message was successfully delivered",
+    "data": {
+      "uid": "614624aaab7a7",
+      "to": "255747991498",
+      "from": "ZEPSONSMS",
+      "message": "This is a test 234 message",
+      "status": "Delivered|200",
+      "cost": "1"
+    }
+  }

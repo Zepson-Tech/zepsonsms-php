@@ -5,7 +5,6 @@ namespace ZepzonSms\SDK;
 use GuzzleHttp\Client;
 use InvalidArgumentException;
 
-
 /**
  * Class ZepzonSms
  * @package ZepzonSms\SDK
@@ -28,11 +27,11 @@ class ZepsonSms
      */
     public function __construct(array $options = [], ?Client $httpClient = null)
     {
-        if (!array_key_exists('apiKey', $options)) {
+        if (! array_key_exists('apiKey', $options)) {
             throw new InvalidArgumentException("apiKey is required.");
         }
 
-        if (!array_key_exists('environment', $options)) {
+        if (! array_key_exists('environment', $options)) {
             $options['environment'] = 'testing';
         }
         $this->options = $options;
@@ -61,6 +60,7 @@ class ZepsonSms
     public function setHttpClient(Client $client): self
     {
         $this->httpClient = $client;
+
         return $this;
     }
 
@@ -75,6 +75,7 @@ class ZepsonSms
             throw new \InvalidArgumentException('Missing parameter: message or recipient');
         }
         $response = $this->httpClient->post('sms/send', ['json' => $data]);
+
         return $response->getBody();
     }
 }

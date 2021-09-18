@@ -7,7 +7,6 @@ namespace ZepzonSms\SDK\Services;
  */
 trait SMS
 {
-
     /**
      * Send SMS
      * @param array $data

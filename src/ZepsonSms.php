@@ -27,11 +27,11 @@ class ZepsonSms
      */
     public function __construct(array $options = [], ?Client $httpClient = null)
     {
-        if (! array_key_exists('apiKey', $options)) {
+        if (!array_key_exists('apiKey', $options)) {
             throw new InvalidArgumentException("apiKey is required.");
         }
 
-        if (! array_key_exists('environment', $options)) {
+        if (!array_key_exists('environment', $options)) {
             $options['environment'] = 'testing';
         }
         $this->options = $options;
@@ -67,15 +67,17 @@ class ZepsonSms
     /**
      * @var string
      * @access public
-     * @return string
+     * @return mixed
+     *  @throws InvalidArgumentException
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function sendSms(array $data)
     {
-        if (isset($data['message']) && isset($data['recipient'])) {
+        if (!isset($data['message']) && !isset($data['recipient'])) {
             throw new \InvalidArgumentException('Missing parameter: message or recipient');
         }
         $response = $this->httpClient->post('sms/send', ['json' => $data]);
 
-        return $response->getBody();
+        return json_decode((string)$response->getBody(), true);
     }
 }

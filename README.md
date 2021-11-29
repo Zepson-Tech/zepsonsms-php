@@ -25,6 +25,13 @@ echo $zepson->sendSms([
 composer test
 ```
 
+## API Available
+
+- [Send SMS](#send-sms)
+- [Get SMS Status](#get-sms-status)
+- [Get SMS Balance](#get-sms-balance)
+
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

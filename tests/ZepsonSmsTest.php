@@ -1,9 +1,9 @@
 <?php
 
-namespace ZepzonSms\SDK\Tests;
+namespace ZepsonSms\SDK\Tests;
 
 use PHPUnit\Framework\TestCase;
-use ZepzonSms\SDK\ZepsonSms;
+use ZepsonSms\SDK\ZepsonSms;
 
 class ZepsonSmsTest extends TestCase
 {

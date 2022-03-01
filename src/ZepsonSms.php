@@ -1,13 +1,13 @@
 <?php
 
-namespace ZepzonSms\SDK;
+namespace ZepsonSms\SDK;
 
 use GuzzleHttp\Client;
 use InvalidArgumentException;
 
 /**
- * Class ZepzonSms
- * @package ZepzonSms\SDK
+ * Class ZepsonSms
+ * @package ZepsonSms\SDK
  * @author  Alpha Olomi <hello@alphaolomi.com>
  *
  */

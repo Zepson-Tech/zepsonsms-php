@@ -1,6 +1,6 @@
 <?php
 
-namespace ZepzonSms\SDK\Services;
+namespace ZepsonSms\SDK\Services;
 
 /**
  * SMS Service
@@ -13,29 +13,29 @@ trait SMS
      * @return mixed
      * @throws \Exception
      * @throws \GuzzleHttp\Exception\GuzzleException
-     * @throws \ZepzonSms\Exception\InvalidRequestException
-     * @throws \ZepzonSms\Exception\InvalidResponseException
-     * @throws \ZepzonSms\Exception\ServiceUnavailableException
-     * @throws \ZepzonSms\Exception\UnauthorizedException
-     * @throws \ZepzonSms\Exception\UnknownException
-     * @throws \ZepzonSms\Exception\InvalidCredentialsException
-     * @throws \ZepzonSms\Exception\InvalidSenderException
-     * @throws \ZepzonSms\Exception\InvalidRecipientException
-     * @throws \ZepzonSms\Exception\InvalidMessageException
-     * @throws \ZepzonSms\Exception\InvalidPhoneNumberException
-     * @throws \ZepzonSms\Exception\InvalidCountryCodeException
-     * @throws \ZepzonSms\Exception\InvalidNumberOfDigitsException
-     * @throws \ZepzonSms\Exception\InvalidMessageLengthException
-     * @throws \ZepzonSms\Exception\InvalidMessageTypeException
-     * @throws \ZepzonSms\Exception\InvalidMessageEncodingException
-     * @throws \ZepzonSms\Exception\InvalidMessageValidityPeriodException
-     * @throws \ZepzonSms\Exception\InvalidMessagePriorityException
-     * @throws \ZepzonSms\Exception\InvalidMessageClassException
-     * @throws \ZepzonSms\Exception\InvalidMessageSenderNameException
-     * @throws \ZepzonSms\Exception\InvalidMessageSenderAddressException
-     * @throws \ZepzonSms\Exception\InvalidMessageSenderCityException
-     * @throws \ZepzonSms\Exception\InvalidMessageSenderStateException
-     * @throws \ZepzonSms\Exception\InvalidMessageSenderPostalCodeException
+     * @throws \ZepsonSms\Exception\InvalidRequestException
+     * @throws \ZepsonSms\Exception\InvalidResponseException
+     * @throws \ZepsonSms\Exception\ServiceUnavailableException
+     * @throws \ZepsonSms\Exception\UnauthorizedException
+     * @throws \ZepsonSms\Exception\UnknownException
+     * @throws \ZepsonSms\Exception\InvalidCredentialsException
+     * @throws \ZepsonSms\Exception\InvalidSenderException
+     * @throws \ZepsonSms\Exception\InvalidRecipientException
+     * @throws \ZepsonSms\Exception\InvalidMessageException
+     * @throws \ZepsonSms\Exception\InvalidPhoneNumberException
+     * @throws \ZepsonSms\Exception\InvalidCountryCodeException
+     * @throws \ZepsonSms\Exception\InvalidNumberOfDigitsException
+     * @throws \ZepsonSms\Exception\InvalidMessageLengthException
+     * @throws \ZepsonSms\Exception\InvalidMessageTypeException
+     * @throws \ZepsonSms\Exception\InvalidMessageEncodingException
+     * @throws \ZepsonSms\Exception\InvalidMessageValidityPeriodException
+     * @throws \ZepsonSms\Exception\InvalidMessagePriorityException
+     * @throws \ZepsonSms\Exception\InvalidMessageClassException
+     * @throws \ZepsonSms\Exception\InvalidMessageSenderNameException
+     * @throws \ZepsonSms\Exception\InvalidMessageSenderAddressException
+     * @throws \ZepsonSms\Exception\InvalidMessageSenderCityException
+     * @throws \ZepsonSms\Exception\InvalidMessageSenderStateException
+     * @throws \ZepsonSms\Exception\InvalidMessageSenderPostalCodeException
      *
      * @link https://www.zepzon.com/docs/sms-api/send-sms-api-endpoint/
      */

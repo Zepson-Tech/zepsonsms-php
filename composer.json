@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ZepzonSms\\SDK\\": "src"
+            "ZepsonSms\\SDK\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ZepzonSms\\SDK\\Tests\\": "tests"
+            "ZepsonSms\\SDK\\Tests\\": "tests"
         }
     },
     "scripts": {

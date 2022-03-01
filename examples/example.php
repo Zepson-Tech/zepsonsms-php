@@ -3,7 +3,7 @@
 
 require 'vendor/autoload.php';
 
-use ZepzonSms\SDK\ZepsonSms;
+use ZepsonSms\SDK\ZepsonSms;
 
 $sms = new ZepsonSms(['apiKey' => '']);
 

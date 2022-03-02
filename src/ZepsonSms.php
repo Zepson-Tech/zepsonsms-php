@@ -41,7 +41,7 @@ class ZepsonSms
     protected function makeClient(array $options, ?Client $client = null): Client
     {
         return ($client instanceof Client) ? $client : new Client([
-            'base_uri' => 'https://zepsonsms.co.tz/api/v3/',
+            'base_uri' => 'https://portal.zepsonsms.co.tz/api/v3/',
             'headers' => [
                 'Accept' => 'application/json',
                 'Authorization' => "Bearer " . $options['apiKey'],

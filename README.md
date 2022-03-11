@@ -11,9 +11,9 @@ composer require zepsonsms/php-client
 ## Usage
 
 ```php
-$zepson = new ZepzonSms\SDK\Client('username', 'password');
+$zepson = new ZepsonSms\SDK\Client('username', 'password');
 echo $zepson->sendSms([
-    'message'=>'Hello, ZepzonSms!',
+    'message'=>'Hello, ZepsonSms!',
     'to'=>'+380988123456',
     'from'=>'ZEPSONSMS'
 ]);

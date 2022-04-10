@@ -5,7 +5,7 @@
 You can install the package via composer:
 
 ```bash
-composer require zepsonsms/php-client
+composer require zepson/zepsonsms-php
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ composer require zepsonsms/php-client
 $zepson = new ZepsonSms\SDK\Client('username', 'password');
 echo $zepson->sendSms([
     'message'=>'Hello, ZepsonSms!',
-    'to'=>'+380988123456',
+    'to'=>'+255752771650',
     'from'=>'ZEPSONSMS'
 ]);
 ```
